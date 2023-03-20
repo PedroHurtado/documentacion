@@ -42,6 +42,8 @@ Nos sirve para comunicar diferentes contextos de dominio. Deben de constar de un
 
 Deben formar parte de la transacción y por tanto al comunicar dos bounded context ambos deben de ser transaccionales.
 
+https://debezium.io/blog/2019/02/19/reliable-microservices-data-exchange-with-the-outbox-pattern/
+
 ### Outbux pattern
 
     id          
