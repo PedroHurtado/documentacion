@@ -50,6 +50,10 @@ Deben formar parte de la transacción y por tanto al comunicar dos bounded conte
     type          
     payload    
 
+### Duplicate Detection
+
+    El consumidor del evento registra el id del evento para evitar procesarlo varias veces
+
 ## Domain exception
 
 Cualquier regla que no se cumpla en un dominio debe de lanzar una exception. Como buena practica todas deberían heredar de una domain exception base y poseer los siguientes atributos description y code(optional) a efectos de log.
