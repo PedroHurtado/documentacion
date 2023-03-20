@@ -24,3 +24,18 @@ Además, si una función es a la vez de tipo query y de tipo command, está incu
 Una función que devuelva distintas cosas dependiendo de una condición interna complica el testeo. Por ejemplo, que devuelva un array de objetos si todo va bien, pero devuela un string con un mensaje de error si hay algún problema.
 
 El return debe ser homegéneo para todos los casos. Si se producen errores, se deben tratar con excepciones.
+
+Ejercicios
+
+Dado el siguiente código
+
+```
+  public interface Repository{
+     Entity get(integer id);
+     Remove(Entity);
+     Add(Entity);
+     Update(Entity);
+  }
+```
+
+hacer que cumpla con la Interface segregation principle
